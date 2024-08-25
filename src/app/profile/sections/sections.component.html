@@ -1,0 +1,10 @@
+<section class="sections">
+  @for(section of sections; track section.title) {
+  <div class="section">
+    <h3>{{ section.title }}</h3>
+    @for(link of section.links; track link.url;){
+    <a class="link" [href]="link.url" target="_blank">{{ link.name }}</a>
+    }
+  </div>
+  }
+</section>

@@ -1,0 +1,23 @@
+a:link,
+a:visited {
+  text-decoration: none;
+  color: currentColor;
+}
+
+a {
+  font-size: 1.7rem;
+  transition: ease-in-out 0.2s;
+}
+
+a:hover {
+  transition: ease-in-out 0.2s;
+  transform: scale(1.3);
+}
+
+.socials {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

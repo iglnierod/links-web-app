@@ -1,0 +1,7 @@
+<div class="socials">
+  @for(social of socials; track social.name) {
+  <a [href]="social.url" target="_blank" [title]="social.name">
+    <i [className]="social.icon"></i>
+  </a>
+  }
+</div>
